@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.div1{
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(../images/bg1.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.div1 div{
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url(../images/bg2.png);
+}
+.div2{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1500px;
+    background-image: url(../images/bg3.png);
+    position: relative;
+    z-index: 20000;
+    margin-top: 500px;
+}
